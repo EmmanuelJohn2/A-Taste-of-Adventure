@@ -1,0 +1,53 @@
+<html>
+<body>
+<center><h1>Add a Recipe</h1></center>
+<style>
+body {
+  background-image: url("recipe.jpg");
+  background-size:100% 100%;
+}
+form{
+    margin-left:30%;
+	margin-right: 30%;
+	border: 5px solid black;
+	background-color: white;
+	}
+label{
+    margin-left: 10px;
+	  }
+input{
+    margin-left: 10px;
+	  }	  
+select{
+    margin-left: 10px;
+	  }
+textarea{
+    margin-left: 50px;
+	  }	  
+</style>
+<form action="thanks.html">
+<h2><b>A.Identification</h2></b><br>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br><br>
+<h2><b>B.Choose which region you'd like to add your recipe to:</h2></b><br>
+  <select id="recipe" name="recipe">
+    <option value="regionI">Region I</option>
+    <option value="regionII">Region II</option>
+    <option value="regionIII">Region III</option>
+    <option value="regionIV-A">Region IV-A</option>
+	<option value="regionIV-B">Region IV-B</option>
+	<option value="regionV">Region V</option>
+  </select><br><br>
+  <h2><b>C.Describe your recipe in detail(ingredients, measurements, instructions, description):</h2></b><br>
+  <textarea name="message" rows="10" cols="30"></textarea>
+  <br><br>
+   <input type="submit" value="Submit">
+</form> 
+<Center style="border: 5px solid green;margin-left:40%;margin-right:40%;background-color:yellow;"><H1><a href="home.html">Back to Main Page</a></center></h1>
+</body>
+</body>
+</html>
+
+
